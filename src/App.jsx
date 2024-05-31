@@ -5,6 +5,8 @@ import viteLogo from '/vite.svg'
 import Navbar from './components/Navbar/Navbar';
 import './App.css'
 import HomePage from './components/HomePage/HomePage'
+import Tiketat from './components/Tiketat/Tiketat';
+import Eventet from './components/Eventet/Eventet';
 
 function App() {
 
@@ -14,6 +16,8 @@ function App() {
     <Navbar />
         <Routes>
           <Route path="/" element={<HomePage />} />
+          <Route path="tiketat" element={<Tiketat />} />
+          <Route path="/eventet" element={<Eventet />} />
         </Routes>
     </Router>
     </>

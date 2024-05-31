@@ -5,6 +5,7 @@ import ShortcutMain from './ShortcutMain/ShortcutMain';
 import Homeslider from './homeslider/slider';
 import Testimonials from './Testimonials/Testimonials';
 import Map from './Map/Map';
+import Footer from '../Footer/Footer';
 
 
 const HomePage = () => {
@@ -16,6 +17,7 @@ const HomePage = () => {
     {/* <Programs /> */}
     <Home />
     <Map />
+    <Footer/>
     </>
   )
 }
