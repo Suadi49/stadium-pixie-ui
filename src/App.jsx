@@ -8,6 +8,7 @@ import HomePage from './components/HomePage/HomePage'
 import Tiketat from './components/Tiketat/Tiketat';
 import Eventet from './components/Eventet/Eventet';
 import Fans from './components/Fans/Fans';
+import Contact from './components/Contact/Contact';
 
 function App() {
 
@@ -20,6 +21,8 @@ function App() {
           <Route path="tiketat" element={<Tiketat />} />
           <Route path="/eventet" element={<Eventet />} />
           <Route path="/fans" element={<Fans />} />
+          <Route path="/contact" element={<Contact />} />
+
         </Routes>
     </Router>
     </>
