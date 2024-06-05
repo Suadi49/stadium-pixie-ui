@@ -9,6 +9,7 @@ import Tiketat from './components/Tiketat/Tiketat';
 import Eventet from './components/Eventet/Eventet';
 import Fans from './components/Fans/Fans';
 import Contact from './components/Contact/Contact';
+import LiveScore from './components/Livescore/LiveScore';
 
 function App() {
 
@@ -22,6 +23,7 @@ function App() {
           <Route path="/eventet" element={<Eventet />} />
           <Route path="/fans" element={<Fans />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/livescore" element={<LiveScore />} />
 
         </Routes>
     </Router>
