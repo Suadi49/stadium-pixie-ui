@@ -10,6 +10,12 @@ import Eventet from './components/Eventet/Eventet';
 import Fans from './components/Fans/Fans';
 import Contact from './components/Contact/Contact';
 import LiveScore from './components/Livescore/LiveScore';
+import Tours from './components/Tours/Tours';
+import ArritjaKetu from './components/Tours/ArritjaKetu';
+import Autobuset from './components/Tours/Autobuset';
+import Disability from './components/Tours/Disability';
+import Objektet from './components/Tours/Objektet';
+import VirtualTour from './components/Tours/VirtualTour';
 
 function App() {
 
@@ -24,6 +30,12 @@ function App() {
           <Route path="/fans" element={<Fans />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/livescore" element={<LiveScore />} />
+          <Route path="/tours" element={<Tours />} />
+          {/* <Route path="/arritja-ketu" element={<ArritjaKetu/>} /> */}
+          <Route path="/autobuset" element={<Autobuset />} />
+          <Route path="/disability" element={<Disability />} />
+          <Route path="/objektet" element={<Objektet />} />
+          <Route path="/virtualTour" element={<VirtualTour />} />
 
         </Routes>
     </Router>
