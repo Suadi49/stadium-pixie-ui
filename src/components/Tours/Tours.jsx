@@ -13,6 +13,7 @@ import virtualTour from './images/virtualTour.jpg'
 
 import Aos from 'aos'
 import 'aos/dist/aos.css'
+import Footer from '../Footer/Footer';
 
 
 //array named Data
@@ -279,13 +280,20 @@ const Tours = () => {
                   </button>
                 </div>
               </div>
+              
             )
             
           })
+
         }
 
       </div>
+
+      
     </section>
+    <Footer/>
+
+
     </>
   )
 }

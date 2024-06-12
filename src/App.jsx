@@ -17,6 +17,7 @@ import Disability from './components/Tours/Disability';
 import Objektet from './components/Tours/Objektet';
 import VirtualTour from './components/Tours/VirtualTour';
 import Stadium from './components/stadiumi/stadiumi';
+import Shop from './components/Shop/Shop'
 
 
 function App() {
@@ -39,6 +40,7 @@ function App() {
           <Route path="/objektet" element={<Objektet />} />
           <Route path="/virtualTour" element={<VirtualTour />} />
           <Route path="/stadiumi" element={<Stadium/>} />
+          <Route path="/shop" element={<Shop/>} />
 
         </Routes>
     </Router>
