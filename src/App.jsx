@@ -16,6 +16,8 @@ import Autobuset from './components/Tours/Autobuset';
 import Disability from './components/Tours/Disability';
 import Objektet from './components/Tours/Objektet';
 import VirtualTour from './components/Tours/VirtualTour';
+import Stadium from './components/stadiumi/stadiumi';
+
 
 function App() {
 
@@ -36,6 +38,7 @@ function App() {
           <Route path="/disability" element={<Disability />} />
           <Route path="/objektet" element={<Objektet />} />
           <Route path="/virtualTour" element={<VirtualTour />} />
+          <Route path="/stadiumi" element={<Stadium/>} />
 
         </Routes>
     </Router>
