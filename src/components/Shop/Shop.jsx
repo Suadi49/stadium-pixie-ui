@@ -72,13 +72,7 @@ const Shop = () => {
             <div className="events">
               <h2>SHOP</h2>
             </div>
-            <div class="container">
-
-                <div className="row height d-flex justify-content-center align-items-center">
-                   
-                </div>
-            </div>
-
+          
         <hr/>
 
         <ShopN/>
